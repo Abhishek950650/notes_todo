@@ -71,7 +71,7 @@ function deleteNote(index){
 // search card using function txt
 let search = document.getElementById('searchTxt');
 search.addEventListener('input', function(){
-    let inputVal = search.value.toLowerCase;
+    let inputVal = search.value.toLowerCase();
     let noteCards = document.getElementsByClassName('noteCard');
     Array.from(noteCards).forEach(function(element){
         let cardTxt = element.getElementsByTagName('p')[0].innerText;
