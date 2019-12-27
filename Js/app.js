@@ -48,7 +48,7 @@ function showNotes() {
         notesElm.innerHTML = html;
     }
     else{
-        notesElm.innerHTML = `Nothing to show ! Use "Add a Node" to add .. Thankyou.`; 
+        notesElm.innerHTML = `Nothing to show ! Use "Add Note" to add .. ('!') Thankyou...`; 
     }
 }
 
